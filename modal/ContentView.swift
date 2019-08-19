@@ -9,8 +9,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var showModal: Bool = false
+    
     var body: some View {
-        Text("Hello World")
+        Button(action: {
+            self.showModal = true
+        }) {
+            Text("Show Modal")
+        }.sheet(isPresented: self.$showModal) {
+            FormView()
+        }
     }
 }
 

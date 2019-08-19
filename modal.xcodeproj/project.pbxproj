@@ -13,6 +13,7 @@
 		37D32C472309F98B000977AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37D32C462309F98B000977AD /* Assets.xcassets */; };
 		37D32C4A2309F98B000977AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37D32C492309F98B000977AD /* Preview Assets.xcassets */; };
 		37D32C4D2309F98B000977AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37D32C4B2309F98B000977AD /* LaunchScreen.storyboard */; };
+		37D32C562309F9B0000977AD /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D32C552309F9B0000977AD /* FormView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		37D32C492309F98B000977AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		37D32C4C2309F98B000977AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37D32C4E2309F98B000977AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37D32C552309F9B0000977AD /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		37D32C3F2309F987000977AD /* modal */ = {
 			isa = PBXGroup;
 			children = (
+				37D32C552309F9B0000977AD /* FormView.swift */,
 				37D32C402309F987000977AD /* AppDelegate.swift */,
 				37D32C422309F987000977AD /* SceneDelegate.swift */,
 				37D32C442309F987000977AD /* ContentView.swift */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37D32C562309F9B0000977AD /* FormView.swift in Sources */,
 				37D32C412309F987000977AD /* AppDelegate.swift in Sources */,
 				37D32C432309F987000977AD /* SceneDelegate.swift in Sources */,
 				37D32C452309F987000977AD /* ContentView.swift in Sources */,
